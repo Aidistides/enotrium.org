@@ -31,16 +31,16 @@ export function HeroSection() {
       </div>
 
       {/* Title block */}
-      <div className="flex flex-col items-center justify-end pt-32 sm:pt-44 pb-10 px-4 text-center shrink-0">
-        <h1 className="text-[3.5rem] sm:text-[5rem] md:text-[6.5rem] lg:text-[8rem] xl:text-[10rem] font-[family-name:var(--font-iceland)] text-white leading-[1.05] tracking-wide">
+      <div className="flex flex-col items-center justify-center pt-32 sm:pt-44 pb-10 px-4 text-center shrink-0">
+       <h1 className="text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] xl:text-[12rem] 2xl:text-[14rem] font-[family-name:var(--font-iceland)] text-white leading-[1.05] tracking-wide">
           Enotrium
         </h1>
-       <h2 className="text-[1rem] sm:text-[1.3rem] md:text-[1.6rem] lg:text-[2rem] xl:text-[2.4rem] font-[family-name:var(--font-iceland)] text-white/80 tracking-[0.2em] uppercase mt-4">
-          A New Mesopotamia
-         style={{
-            textShadow: "0 0 20px rgba(255,255,255,0.15)"
-        }}
-        </h2>
+          <h2
+            className="text-[1rem] sm:text-[1.3rem] md:text-[1.6rem] lg:text-[2rem] xl:text-[2.4rem] font-[family-name:var(--font-iceland)] text-white/80 tracking-[0.2em] uppercase mt-4"
+              style={{ textShadow: "0 0 20px rgba(255,255,255,0.15)" }}
+            >
+            A New Mesopotamia
+          </h2>
       </div>
 
       {/* Bordered panel */}
@@ -63,13 +63,13 @@ export function HeroSection() {
               <Image
                 src="/logo.png"
                 alt="Enotrium"
-                width={80}
-                height={80}
+                width={96}
+                height={96}
                 className="opacity-80"
               />
             </div>
             <div className="text-right font-[family-name:var(--font-space-grotesk)]">
-              <div className="text-white/80 text-sm font-bold tracking-[0.2em]">
+              <div className="text-white/60 text-sm font-bold tracking-[0.2em]">
                 EST. 2025
               </div>
               <div className="text-white/55 text-sm">Future of Farming</div>
