@@ -31,12 +31,15 @@ export function HeroSection() {
       </div>
 
       {/* Title block */}
-      <div className="flex flex-col items-center justify-end pt-24 sm:pt-36 pb-8 px-4 text-center shrink-0">
+      <div className="flex flex-col items-center justify-end pt-32 sm:pt-44 pb-10 px-4 text-center shrink-0">
         <h1 className="text-[3.5rem] sm:text-[5rem] md:text-[6.5rem] lg:text-[8rem] xl:text-[10rem] font-[family-name:var(--font-iceland)] text-white leading-[1.05] tracking-wide">
           Enotrium
         </h1>
        <h2 className="text-[1rem] sm:text-[1.3rem] md:text-[1.6rem] lg:text-[2rem] xl:text-[2.4rem] font-[family-name:var(--font-iceland)] text-white/80 tracking-[0.2em] uppercase mt-4">
           A New Mesopotamia
+         style={{
+            textShadow: "0 0 20px rgba(255,255,255,0.15)"
+        }}
         </h2>
       </div>
 
@@ -44,7 +47,7 @@ export function HeroSection() {
       <div className="flex-1 mx-0 mb-0 sm:mx-3 sm:mb-3  sm:border-b sm:border-x border-white/15 flex flex-col overflow-hidden min-h-0">
         {/* Subtitle + info row */}
         <div className="px-6 pt-8 pb-6 shrink-0 flex flex-col items-center">
-          <p className="text-center text-lg sm:text-xl md:text-2xl lg:text-[1.6rem] text-white/40 leading-snug font-[family-name:var(--font-iceland)] mb-8">
+          <p className="text-center text-sm sm:text-base md:text-lg lg:text-xl text-white/30 leading-snug font-[family-name:var(--font-iceland)] mb-8">
             Autonomous Coordination
             <br />
             for Critical Supply Chains
@@ -60,9 +63,9 @@ export function HeroSection() {
               <Image
                 src="/logo.png"
                 alt="Enotrium"
-                width={56}
-                height={56}
-                className="opacity-75"
+                width={80}
+                height={80}
+                className="opacity-80"
               />
             </div>
             <div className="text-right font-[family-name:var(--font-space-grotesk)]">
