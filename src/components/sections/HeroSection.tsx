@@ -32,10 +32,12 @@ export function HeroSection() {
 
       {/* Title block */}
       <div className="flex flex-col items-center justify-center pt-32 sm:pt-44 pb-10 px-4 text-center shrink-0">
+
         {/* 1. Enotrium */}
         <h1 className="text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] xl:text-[12rem] 2xl:text-[14rem] font-[family-name:var(--font-iceland)] text-white leading-[1.05] tracking-wide">
           Enotrium
         </h1>
+
         {/* 2. A New Mesopotamia */}
         <h2
           className="text-[1rem] sm:text-[1.3rem] md:text-[1.6rem] lg:text-[2rem] xl:text-[2.4rem] font-[family-name:var(--font-inter)] text-white/80 tracking-[0.2em] uppercase mt-4"
@@ -45,7 +47,7 @@ export function HeroSection() {
         </h2>
 
         {/* 3. Logo block */}
-        <div className="flex items-center justify-center gap-6 mt-10">
+        <div className="flex items-center justify-center gap-6 mt-8">
           <span className="text-white/60 text-sm font-[family-name:var(--font-space-grotesk)] text-right">
             Defend the<br />Earth
           </span>
@@ -62,15 +64,6 @@ export function HeroSection() {
           </div>
         </div>
 
-        {/* 4. Transforming Agriculture through Autonomous Systems */}
-        <div className="mt-6 text-center">
-          <p className="text-[1.2rem] sm:text-[1.6rem] md:text-[2rem] lg:text-[2.6rem] text-white/85 leading-tight font-[family-name:var(--font-iceland)]">
-            Transforming Agriculture
-          </p>
-          <p className="text-[1.2rem] sm:text-[1.6rem] md:text-[2rem] lg:text-[2.6rem] text-white/85 leading-tight font-[family-name:var(--font-iceland)] mt-1">
-            through Autonomous Systems
-          </p>
-        </div>
       </div>
 
       {/* Bordered panel */}
@@ -91,6 +84,14 @@ export function HeroSection() {
             }}
           />
         </div>
+
+        {/* 4. Transforming Agriculture — pinned to bottom of panel */}
+        <div className="text-center py-6">
+          <p className="text-[1.2rem] sm:text-[1.6rem] md:text-[2rem] lg:text-[2.6rem] text-white/85 leading-tight font-[family-name:var(--font-iceland)]">
+            Transforming Agriculture through Autonomous Systems
+          </p>
+        </div>
+
       </div>
     </section>
   );
